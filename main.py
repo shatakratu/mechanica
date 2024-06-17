@@ -79,7 +79,7 @@ while True:
     screen.blit(text_surface, (int(beam_x) - text_surface.get_width() // 2, HEIGHT // 2 - 100))
 
     # Отображение фиксированного текста с расстоянием
-    distance_text = f'Расстояние: {DISTANCE_EARTH_MOON / 1000000:.3f} km'
+    distance_text = f'Расстояние: {DISTANCE_EARTH_MOON / 1000000:.3f} км'
     distance_surface = font.render(distance_text, True, WHITE)
     screen.blit(distance_surface, (WIDTH // 2 - distance_surface.get_width() // 2, HEIGHT - 230))
 
@@ -92,4 +92,4 @@ while True:
     pygame.display.flip()
 
     # Ограничение FPS
-    clock.tick(240)
+    clock.tick(120)
