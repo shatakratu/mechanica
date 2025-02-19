@@ -1,1 +1,1 @@
-'''Путешествие cвета от Земли до Луны'''
+'''The Journey of Light from Earth to the Moon'''
