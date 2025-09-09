@@ -8,10 +8,10 @@ pygame.init()
 
 # Константы
 WIDTH, HEIGHT = 800, 600
-EARTH_RADIUS = 6371000  # радиус Земли в метрах
-MOON_RADIUS = 1737400   # радиус Луны в метрах
-DISTANCE_EARTH_MOON = 384400000  # расстояние от Земли до Луны в метрах
-SPEED_OF_LIGHT = 299792458  # скорость света в м/с
+EARTH_RADIUS = 6371000            # радиус Земли в метрах
+MOON_RADIUS = 1737400             # радиус Луны в метрах
+DISTANCE_EARTH_MOON = 384400000   # расстояние от Земли до Луны в метрах
+SPEED_OF_LIGHT = 299792458        # скорость света в м/с
 
 # Масштабирование
 SCALE = 1e-6
@@ -94,6 +94,7 @@ try:
 
         # Ограничение FPS
         clock.tick(120)
+        
 except KeyboardInterrupt:
     pygame.quit()
     sys.exit()
