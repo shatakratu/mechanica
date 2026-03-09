@@ -1,1 +1,1 @@
-The Journey of Light from Earth to the Moon
+Visualization of Light traveling between Earth and the Moon.
