@@ -1,4 +1,4 @@
-# 🌍 Speed of Light Simulation
+# 🌍 Speed of Light
 
 
 
